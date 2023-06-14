@@ -51,6 +51,9 @@ h2 {
 .imagenes img {
 	max-width: 100%;
 	height: auto;
+    
+
+    
 }
 
 footer {
@@ -66,7 +69,7 @@ footer {
     padding: 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
 
 
@@ -75,16 +78,15 @@ footer {
 #destinos li {
     width: calc(33.33% - 20px);
     margin-bottom: 40px;
-    text-align: center;
+    
 }
     
 #destinos img {
     width: 100%;
     height: 50%;
+    border: 20px;
     border-radius: 40px;
     margin-bottom: 20px;
-} 
+    align-content: center;
 
-#destinos .imag1{
-	width: 25%;
 }
